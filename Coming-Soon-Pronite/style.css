@@ -440,15 +440,14 @@ a{
   background-color: gray;
   display: inline-block;
 }
-
-/* @media (max-width:425px) {
+@media (max-width:425px) {
   .icon,
   .icon::after,
   .icon::before{
       height: 2px;
       width: 1.5rem;
   }
-} */
+}
 
 .icon::before,
 .icon::after {
