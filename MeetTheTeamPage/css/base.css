@@ -10,7 +10,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 /* page styling */
 body {
-	background: linear-gradient(90deg,#7bed9f, #3498db);
+	/* background: linear-gradient(90deg,#7bed9f, #3498db); */
   }
   
   section {
