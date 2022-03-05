@@ -31,8 +31,8 @@ section p {
 .button {
   position: relative;
   background-color: white;
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
   position: fixed;
   top: 5vh; 
@@ -151,6 +151,16 @@ a{
   background-color: gray;
   display: inline-block;
 }
+
+@media (max-width:425px) {
+  .icon,
+  .icon::after,
+  .icon::before{
+      height: 2px;
+      width: 1.5rem;
+  }
+}
+
 
 .icon::before,
 .icon::after {
