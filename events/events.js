@@ -39,6 +39,20 @@ const eventsImgUrl = [
     'images/events/misc.svg'
 ];
 
+const eventDesc = {
+    'Mr and Ms Taarangana':'dfcghjk',
+    'Rangmanch':'dfcghjk',
+    'Aaghaz':'ertyui',
+    'Rap Battle':'fgvbhnjmk',
+    'Group Singing-Antra':'vbhnjxmk',
+    'Urban Thump':'wsdcvbhuj',
+    'Solo Singing-Anhad':'njkmlm k',
+    'Lilac Dreams': 'edrftgbhnj',
+    'Slam Poetry':'sedrftg',
+    'Knight of the fall':'drfgh'
+};
+
+
 const eventsContainer = document.getElementsByClassName("events-container")[0];
 
 const numberOfEvents = eventsNames.length;
@@ -198,6 +212,7 @@ if (window.innerWidth < 500) {
 function openAllEvents(type) {
     document.getElementById('event-details').style.display = 'flex';
     document.getElementsByClassName('event-type')[0].innerHTML = type;
+    document.getElementById("event-desc").innerHTML = eventDesc[type]
     setTimeout(() => {
         document.getElementById('event-details').style.opacity = 1;
     }, 10);
