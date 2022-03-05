@@ -158,15 +158,6 @@ body {
 	display: inline-block;
   }
   
-  @media (max-width:425px) {
-	.icon,
-	.icon::after,
-	.icon::before{
-		height: 2px;
-		width: 1.5rem;
-	}
-  }
-  
   .icon::before,
   .icon::after {
 	content: "";
@@ -201,8 +192,8 @@ body {
 	top: 0;
 	transform: rotate(-135deg);
   }
-
   
+
 body {
 	--color-text: #4800d4;
 	    --color-bg: #e8e8e8;
